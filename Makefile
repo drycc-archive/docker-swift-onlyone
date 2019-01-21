@@ -1,6 +1,6 @@
 SHORT_NAME := swift-onlyone
-DEIS_REGISTY ?= ${DEV_REGISTRY}/
-IMAGE_PREFIX ?= deis
+DRYCC_REGISTY ?= ${DEV_REGISTRY}/
+IMAGE_PREFIX ?= drycc
 
 include versioning.mk
 SWIFT_USER_PASSWORD=testing
